@@ -1,0 +1,133 @@
+{
+  "location": {
+    "name": "Seoul",
+    "region": "",
+    "country": "South Korea",
+    "lat": 37.57,
+    "lon": 127.0,
+    "tz_id": "Asia/Seoul",
+    "localtime_epoch": 1721115000,
+    "localtime": "2024-07-16 16:30"
+  },
+  "current": {
+    "last_updated_epoch": 1721114100,
+    "last_updated": "2024-07-16 16:15",
+    "temp_c": 25.0,
+    "temp_f": 77.0,
+    "is_day": 1,
+    "condition": {
+      "text": "Moderate rain",
+      "icon": "//cdn.weatherapi.com/weather/64x64/day/302.png",
+      "code": 1189
+    },
+    "wind_mph": 4.3,
+    "wind_kph": 6.8,
+    "wind_degree": 150,
+    "wind_dir": "SSE",
+    "pressure_mb": 1010.0,
+    "pressure_in": 29.83,
+    "precip_mm": 1.03,
+    "precip_in": 0.04,
+    "humidity": 100,
+    "cloud": 100,
+    "feelslike_c": 27.6,
+    "feelslike_f": 81.7,
+    "windchill_c": 25.2,
+    "windchill_f": 77.3,
+    "heatindex_c": 27.9,
+    "heatindex_f": 82.2,
+    "dewpoint_c": 23.0,
+    "dewpoint_f": 73.5,
+    "vis_km": 3.5,
+    "vis_miles": 2.0,
+    "uv": 6.0,
+    "gust_mph": 5.8,
+    "gust_kph": 9.4
+  },
+  "forecast": {
+    "forecastday": [
+      {
+        "date": "2024-07-16",
+        "date_epoch": 1721088000,
+        "day": {
+          "maxtemp_c": 29.6,
+          "maxtemp_f": 85.3,
+          "mintemp_c": 22.6,
+          "mintemp_f": 72.7,
+          "avgtemp_c": 25.0,
+          "avgtemp_f": 77.0,
+          "maxwind_mph": 9.6,
+          "maxwind_kph": 15.5,
+          "totalprecip_mm": 34.99,
+          "totalprecip_in": 1.38,
+          "totalsnow_cm": 0.0,
+          "avgvis_km": 8.9,
+          "avgvis_miles": 5.0,
+          "avghumidity": 85,
+          "daily_will_it_rain": 1,
+          "daily_chance_of_rain": 96,
+          "daily_will_it_snow": 0,
+          "daily_chance_of_snow": 0,
+          "condition": {
+            "text": "Heavy rain",
+            "icon": "//cdn.weatherapi.com/weather/64x64/day/308.png",
+            "code": 1195
+          },
+          "uv": 6.0
+        },
+        "astro": {
+          "sunrise": "05:24 AM",
+          "sunset": "07:53 PM",
+          "moonrise": "03:09 PM",
+          "moonset": "12:33 AM",
+          "moon_phase": "Waxing Gibbous",
+          "moon_illumination": 69,
+          "is_moon_up": 0,
+          "is_sun_up": 1
+        },
+        "hour": [
+          {
+            "time_epoch": 1721055600,
+            "time": "2024-07-16 00:00",
+            "temp_c": 24.4,
+            "temp_f": 76.0,
+            "is_day": 0,
+            "condition": {
+              "text": "Patchy rain nearby",
+              "icon": "//cdn.weatherapi.com/weather/64x64/night/176.png",
+              "code": 1063
+            },
+            "wind_mph": 3.6,
+            "wind_kph": 5.8,
+            "wind_degree": 96,
+            "wind_dir": "E",
+            "pressure_mb": 1012.0,
+            "pressure_in": 29.87,
+            "precip_mm": 0.03,
+            "precip_in": 0.0,
+            "snow_cm": 0.0,
+            "humidity": 84,
+            "cloud": 61,
+            "feelslike_c": 26.6,
+            "feelslike_f": 79.9,
+            "windchill_c": 24.4,
+            "windchill_f": 76.0,
+            "heatindex_c": 26.6,
+            "heatindex_f": 79.9,
+            "dewpoint_c": 21.6,
+            "dewpoint_f": 70.9,
+            "will_it_rain": 1,
+            "chance_of_rain": 76,
+            "will_it_snow": 0,
+            "chance_of_snow": 0,
+            "vis_km": 10.0,
+            "vis_miles": 6.0,
+            "gust_mph": 6.9,
+            "gust_kph": 11.1,
+            "uv": 0
+          }
+        ]
+      }
+    ]
+  }
+}
