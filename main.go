@@ -8,9 +8,8 @@ import (
 	"net/http"
 	"os"
 	"time"
+	"weather-cli/config"
 )
-
-//
 
 type Weather struct {
 	Location struct {
@@ -35,16 +34,14 @@ type Weather struct {
 }
 
 func main() {
-
-	const secretKey string = "secretkey"
+	secretKey := config.SetUp().ApiKey
 	city := "Seoul"
 	if len(os.Args) >= 2 {
 		fmt.Println(os.Args[0])
 		city = os.Args[1]
 	}
 
-	forecastDays := "1"
-	url := "http://api.weatherapi.com/v1/forecast.json?key=" + secretKey + "&q=" + city + "&days=" + forecastDays + "&aqi=no&alerts=no"
+	url := "http://api.weatherapi.com/v1/forecast.json?key=" + secretKey + "&q=" + city + "&days=1&aqi=no&alerts=no"
 	res, err := http.Get(url)
 	if err != nil {
 		panic(err)
